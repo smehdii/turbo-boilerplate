@@ -22,7 +22,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
-      extends: ['plugin:@typescript-eslint/recommended'],
+      extends: ['plugin:@typescript-eslint/recommended', 'plugin:@kaizer/custom/recommended'],
       plugins: ['@typescript-eslint', '@kaizer/custom'],
       parser: '@typescript-eslint/parser',
       overrides: [
