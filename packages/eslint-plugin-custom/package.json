@@ -1,0 +1,16 @@
+{
+  "name": "@kaizer/eslint-plugin-custom",
+  "version": "0.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/parser": "^5.25.0",
+    "@typescript-eslint/utils": "^5.30.5",
+    "eslint": "^8.15.0",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.5"
+  }
+}
